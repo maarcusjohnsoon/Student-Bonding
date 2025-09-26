@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Student Bonding - Get in Touch</title>
+    <meta name="description" content="Contact Student Bonding for partnerships, safety concerns, or questions about our platform for student social connections.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="index.html" class="nav__logo">Student Bonding</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="take-test.html" class="nav__link">Take the Test</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="results-guide.html" class="nav__link">Results Guide</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header__content reveal">
+                    <h1>Contact Student Bonding</h1>
+                    <p>We're here to help and answer your questions</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-info reveal">
+                    <div class="contact-card">
+                        <h2>Get in Touch</h2>
+                        <p>We welcome questions, feedback, partnership inquiries, and safety concerns. Our team is committed to maintaining a safe, inclusive platform for all students.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <h3>Email</h3>
+                                <a href="mailto:contact@studentbonding.com" class="contact-link">contact@studentbonding.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-topics">
+                            <h3>What we can help with:</h3>
+                            <ul>
+                                <li>Partnership opportunities with universities and student organizations</li>
+                                <li>Safety concerns or inappropriate behavior reports</li>
+                                <li>Questions about our platform and community guidelines</li>
+                                <li>Feedback and suggestions for improvement</li>
+                                <li>Media inquiries and research collaboration</li>
+                                <li>Technical support and accessibility issues</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-section reveal">
+                    <div class="form-card">
+                        <h2>Send us a Message</h2>
+                        <p>Use this form to reach out to us directly. We typically respond within 24-48 hours.</p>
+                        
+                        <form id="contact-form" class="contact-form" role="form" novalidate>
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name *</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <select id="subject" name="subject" class="form-select" required>
+                                    <option value="">Select a topic</option>
+                                    <option value="general">General Question</option>
+                                    <option value="partnership">Partnership Inquiry</option>
+                                    <option value="safety">Safety Concern</option>
+                                    <option value="technical">Technical Support</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="media">Media Inquiry</option>
+                                </select>
+                                <span class="error-message" id="subject-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="6" required placeholder="Please provide details about your inquiry..."></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="additional-resources reveal">
+                    <div class="resources-card">
+                        <h2>Additional Resources</h2>
+                        <p>If you're experiencing a mental health crisis or need immediate support, please reach out to these resources:</p>
+                        
+                        <div class="resources-list">
+                            <div class="resource-item">
+                                <h3>Campus Counseling Services</h3>
+                                <p>Most colleges offer free, confidential counseling services for students.</p>
+                            </div>
+                            
+                            <div class="resource-item">
+                                <h3>Crisis Text Line</h3>
+                                <p>Text HOME to 741741 for free, 24/7 crisis support.</p>
+                            </div>
+                            
+                            <div class="resource-item">
+                                <h3>National Suicide Prevention Lifeline</h3>
+                                <p>Call or text 988 for immediate support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p>&copy; 2025 Student Bonding. Building connections through shared experiences.</p>
+                <p>Contact us: <a href="mailto:contact@studentbonding.com">contact@studentbonding.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Demo Site Notice</h3>
+                <span class="modal-close" id="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p>This is a demo site. The contact form doesn't actually send messages.</p>
+                <p>To reach us, please email <a href="mailto:contact@studentbonding.com">contact@studentbonding.com</a> directly.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--primary" id="modal-ok">OK</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
