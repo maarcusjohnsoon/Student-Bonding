@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take the Rice Purity Test - Student Bonding</title>
+    <meta name="description" content="Take our thoughtfully designed Rice Purity Test in a safe, respectful environment. Designed for meaningful conversations among college students.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="index.html" class="nav__logo">Student Bonding</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="take-test.html" class="nav__link nav__link--active">Take the Test</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="results-guide.html" class="nav__link">Results Guide</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header__content reveal">
+                    <h1>Rice Purity Test</h1>
+                    <p>A conversation starter for meaningful connections</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="test-intro">
+            <div class="container">
+                <div class="test-intro__content reveal">
+                    <div class="intro-card">
+                        <h2>Before You Begin</h2>
+                        <p>This test is designed to spark conversations and help you reflect on your experiences in a judgment-free environment. Remember:</p>
+                        <ul>
+                            <li>Answer honestly, but only share results if you're comfortable</li>
+                            <li>There are no right or wrong answers</li>
+                            <li>Respect everyone's privacy and choices</li>
+                            <li>Use this as a tool for connection, not comparison</li>
+                        </ul>
+                        <p><strong>Instructions:</strong> Check the box for each experience you've had. Your score will be calculated automatically.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="test-questions">
+            <div class="container">
+                <form id="purity-test-form" class="test-form reveal">
+                    <div class="questions-grid">
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="2">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Held hands with a romantic interest</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="3">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Been on a date</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="4">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Stayed up all night talking with someone you have feelings for</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="5">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Attended a college party</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="6">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Participated in a drinking game</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="4">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Skipped a lecture for a campus event</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="3">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Participated in a campus club performance</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="7">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Been to a midnight study party in the library</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="5">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Had a deep conversation with a stranger</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="6">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Confessed your feelings to someone</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="4">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Pulled an all-nighter for an assignment</span>
+                            </label>
+                        </div>
+                        
+                        <div class="question-item">
+                            <label class="question-label">
+                                <input type="checkbox" name="question" data-weight="8">
+                                <span class="checkmark"></span>
+                                <span class="question-text">Been in a serious romantic relationship</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="test-buttons">
+                        <button type="button" id="calculate-score" class="btn btn--primary">Calculate My Score</button>
+                        <button type="button" id="reset-test" class="btn btn--secondary">Reset Test</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="test-results" id="test-results" style="display: none;">
+            <div class="container">
+                <div class="results-card">
+                    <h2>Your Rice Purity Score</h2>
+                    <div class="score-display">
+                        <div class="score-circle">
+                            <div class="score-number" id="score-number">0</div>
+                            <div class="score-label">out of 100</div>
+                        </div>
+                        <div class="score-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="score-interpretation" id="score-interpretation">
+                        <h3>Your Interpretation</h3>
+                        <p id="interpretation-text">Your results will appear here.</p>
+                    </div>
+                    
+                    <div class="share-section">
+                        <h3>Share Your Experience</h3>
+                        <div class="share-text">
+                            <textarea id="share-text" readonly>I just took the Rice Purity Test on Student Bonding! It was a fun way to reflect on my college experiences. Check it out!</textarea>
+                            <button id="copy-share-text" class="btn btn--secondary">Copy Text</button>
+                        </div>
+                        <p class="share-note">Remember: sharing is optional and should always be consensual!</p>
+                    </div>
+                    
+                    <div class="next-steps">
+                        <a href="results-guide.html" class="btn btn--primary">Understand Your Results</a>
+                        <a href="about.html" class="btn btn--secondary">Learn About Safe Discussions</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p>&copy; 2025 Student Bonding. Building connections through shared experiences.</p>
+                <p>Contact us: <a href="mailto:contact@studentbonding.com">contact@studentbonding.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
